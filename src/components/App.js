@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import TicketList from "./TicketList";
+import NavBar from "./NavBar";
 
 function App(){
   return (
     <React.Fragment>
       <Header />
-      <TicketList />
+      <NavBar />
     </React.Fragment>
   );
 }
