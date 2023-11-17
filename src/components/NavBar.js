@@ -8,14 +8,25 @@ import Bio from "./Bio.js"
 
 
 function NavBar() {
+
+  const navStyles = {
+    backgroundColor: '#b18abf',
+    padding: '2px 30px',
+    display: 'flex',
+    justifyContent: 'space-between',
+    textTransform: 'uppercase'
+  }
+
   return (
     <React.Fragment>
-      <Home/>
-      <Bio/>
-      <Services/>
-      <AboutCCM/>
-      <Blog/>
-      <Contact/>
+      <div style={navStyles}>
+        <Home />
+        <Bio />
+        <Services />
+        <AboutCCM />
+        <Blog />
+        <Contact />
+      </div>
     </React.Fragment>
   );
 }
