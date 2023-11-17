@@ -6,14 +6,15 @@ function Header() {
     textAlign: 'center',
     textTransform: 'uppercase',
     backgroundColor: 'red',
-    padding: '1px'
+    padding: '1px',
+
   }
 
   return (
     <React.Fragment>
       <div style={headerStyle}>
         <h1>Kindred Earth</h1>
-        <p>Acupuncture and Wellness</p>
+        <p>Acupuncture & Wellness</p>
       </div>
     </React.Fragment>
   );

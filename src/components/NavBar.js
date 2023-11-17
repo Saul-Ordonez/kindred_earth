@@ -11,9 +11,9 @@ function NavBar() {
 
   const navStyles = {
     backgroundColor: '#b18abf',
-    padding: '2px 30px',
+    padding: '1px',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     textTransform: 'uppercase'
   }
 
